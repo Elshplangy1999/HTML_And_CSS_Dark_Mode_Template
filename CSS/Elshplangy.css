@@ -908,7 +908,7 @@ header .mega .links li a i {
         align-items: flex-start;
         position: absolute;
         top: 8%;
-        left: 40%;
+        left: 35%;
         transform: translate(-50%, -50%);
     }
 }
@@ -917,6 +917,12 @@ header .mega .links li a i {
     height: 30px;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width:767px) {
+    .team-members .container .box .data .icons a {
+        margin-right: 15px;
+    }
 }
 
 .team-members .box .data .icons a i {
