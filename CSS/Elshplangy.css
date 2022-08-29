@@ -863,7 +863,7 @@ header .mega .links li a i {
 
 @media (max-width:767px) {
     .team-members .container .box::before {
-        width: calc(100%);
+        width: 100%;
     }
 }
 
@@ -875,6 +875,12 @@ header .mega .links li a i {
 
 .team-members .container .box:hover:after {
     width: calc(100% - 60px);
+}
+
+@media (max-width: 767px) {
+    .team-members .container .box:hover:after {
+        width: 100%;
+    }
 }
 
 .team-members .container .box .data {
