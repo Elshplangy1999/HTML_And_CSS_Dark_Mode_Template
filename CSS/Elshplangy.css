@@ -221,15 +221,10 @@ header .main-nav{
     
 }
 
-@media(max-width: 767px) {
-    header .main-nav {
-        margin: auto;
-    }
-}
-
 @media(max-width: 991px) {
     header .main-nav {
-        margin: -6px;
+        width: 100%;
+        justify-content: center;
     }
 }
 
